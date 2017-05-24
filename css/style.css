@@ -9,3 +9,6 @@
 #textFrisbee{
 	font-size: 16px;
 }
+img {
+	display : flex ;
+}
