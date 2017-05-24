@@ -1,28 +1,39 @@
-#frisbee{
+.frisbee{
 	width: 282px;
 	height: 113px;	
-	position: relative;
+/*	position: relative;
 	left: 150px;
-
+*/
 }
-#textFrisbee{
+.textFrisbee{
 	font-size: 16px;
 	position: relative;
 	left: 50px; 
 
 }
 
-#imgFrisbee1{
+.imgFrisbee3{
 	width: 393px;
 	height: 393px;
-	/*position: relative;
-	left: 100px;*/
+	display: block;
+	position: relative;
+	left: 630px;
+	top: 450px;
 }
 
-/*#imgFrisbee2{
-	width: 393px;
-	height: 393px;
-	position: absolute;
-	top: 10px;
-	left: 350px
-}*/
+.imgFrisbee1{
+	width: 430px;
+	height: 430px;
+	position: relative;	
+	left: -170px;
+	top: 25px;
+}
+
+.imgFrisbee2{
+	width: 399px; 
+	height: 399px;
+	position: relative;
+	left: -199px;
+	top: 30px;
+}
+
