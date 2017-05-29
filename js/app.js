@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 console.log("yipikai")
 
 //carousel presentation societe
@@ -11,3 +12,6 @@ $('.carousel').carousel('prev', 4); // Move prev n times.
 // Set to nth slide
 $('.carousel').carousel('set', 4);
 //fin carousel presentation societe
+=======
+$(".button-collapse").sideNav();
+>>>>>>> 02545b1ec354335b974923f1507fda61d54a80e1
