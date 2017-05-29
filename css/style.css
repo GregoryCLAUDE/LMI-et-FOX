@@ -1,17 +1,47 @@
 .frisbee{
 	width: 282px;
-	height: 113px;
-	/*position: absolute;
-	top: 20%;
-	left: 50%;*/	
-
+	height: 113px;	
+/*	position: relative;
+	left: 150px;
+*/
 }
 .boomerang{
 	background: image("photo/paysage/image3.JPG") ;
 }
 .textFrisbee{
 	font-size: 16px;
+	position: relative;
+	left: 50px; 
+
 }
+
+
+.imgFrisbee3{
+	width: 393px;
+	height: 393px;
+	display: block;
+	position: relative;
+	left: 630px;
+	top: 450px;
+}
+
+.imgFrisbee1{
+	width: 430px;
+	height: 430px;
+	position: relative;	
+	left: -170px;
+	top: 25px;
+}
+
+.imgFrisbee2{
+	width: 399px; 
+	height: 399px;
+	position: relative;
+	left: -199px;
+	top: 30px;
+}
+
+
 .small {
 	max-width: 70%;
 
@@ -49,8 +79,30 @@
 
 }
 
+
 p { 
    font-family: 'DashleyRegular'; 
    font-weight: normal; 
    font-style: normal; 
+}
+/*partie presentation entreprise*/
+
+.presentation{
+	font-family: 'Lovers Quarrel', cursive;
+}
+.societe{
+	background-image:linear-gradient(to left, #FFE5E5, SandyBrown);
+	
+}
+.preSociete{
+	display: flex;
+	flex:  center;
+}
+.debrief{color: DarkSlateGray;
+	font-size: large;
+
+}
+.ultimateFrisbee{
+	background-image:linear-gradient(60deg, #edd9ff, #bfdfff);
+
 }
