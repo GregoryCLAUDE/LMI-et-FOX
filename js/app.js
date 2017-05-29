@@ -17,3 +17,6 @@ $(document).ready(function(){
   });
 
 
+$(".arrowScroll").click(function(){
+	$('html,body').animate({scrollTop: $(".societe").offset().top}, 'slow')      
+})
