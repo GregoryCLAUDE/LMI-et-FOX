@@ -17,3 +17,6 @@ $('.carousel').carousel('set', 4);
 
 $(".button-collapse").sideNav();
 
+$(".arrowScroll").click(function(){
+	$('html,body').animate({scrollTop: $(".societe").offset().top}, 'slow')      
+})
