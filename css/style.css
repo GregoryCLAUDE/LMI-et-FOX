@@ -6,6 +6,9 @@
 	left: 50%;*/	
 
 }
+.boomerang{
+	background: image("photo/paysage/image3.JPG") ;
+}
 .textFrisbee{
 	font-size: 16px;
 }
@@ -18,7 +21,7 @@
 	max-height: 170%;  
 }
 .medium-long-right {
-	border-left: 30%;
+	border-left: 40%;
 	max-width: 200%;
 	max-height: 170%;  
 }
@@ -44,4 +47,10 @@
 	font-weight: 400;
 	line-height: 30px;
 
+}
+
+p { 
+   font-family: 'DashleyRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
 }
