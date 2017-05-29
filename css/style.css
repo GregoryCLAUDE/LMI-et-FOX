@@ -6,11 +6,9 @@
 	top: 50px;
 
 }
-.boomerang{
-	background: image("photo/paysage/image3.JPG") ;
-}
+
 .textFrisbee{
-	font-size: 18px;
+	/*font-size: 18px;*/
 	position: relative;
 	top: -700px;
 
@@ -64,12 +62,14 @@
 	max-width: 150%; 
 }
 
-
-.boomerang, p { 
+.logoHead {
+	width:15% 
+}
+p { 
    	font-family: 'IntuitiveRegular'; 
    	font-weight: normal; 
    	font-style: normal; 
-	font-size: 135%; 
+	font-size: 170%; 
 }
 
 /*partie presentation entreprise*/
@@ -86,7 +86,7 @@
 	flex:  center;
 }
 .debrief{color: DarkSlateGray;
-	font-size: large;
+	/*font-size: large;*/
 
 }
 .ultimateFrisbee{

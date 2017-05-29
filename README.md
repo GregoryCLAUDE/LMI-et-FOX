@@ -9,3 +9,4 @@ Le 24/05 9h46 mise en place de la partie ultimate frisbee par Elodie et Boomeran
 
 Le 29/05 12H30 	rajout de la section "presentation de la société et des photos" par Florian
 				modification de la présentation de la section boomerang et de la positions des photos par Greg
+		15h00	modification de la partie boomerang pour une page plus responsive et une meilleure lecture 			du texte		
