@@ -1,17 +1,18 @@
-.frisbee{
+.logoFrisbee{
 	width: 282px;
 	height: 113px;	
-/*	position: relative;
-	left: 150px;
-*/
+	position: relative;
+	left: 550px;
+	top: 50px;
+
 }
 .boomerang{
 	background: image("photo/paysage/image3.JPG") ;
 }
 .textFrisbee{
-	font-size: 16px;
+	font-size: 18px;
 	position: relative;
-	left: 50px; 
+	top: -700px;
 
 }
 
@@ -21,24 +22,28 @@
 	height: 393px;
 	display: block;
 	position: relative;
-	left: 630px;
-	top: 450px;
+	left: 580px;
+	top: 70px;
 }
 
 .imgFrisbee1{
 	width: 430px;
 	height: 430px;
 	position: relative;	
-	left: -170px;
-	top: 25px;
+	left: -120px;
+	top: -350px;
 }
 
 .imgFrisbee2{
 	width: 399px; 
 	height: 399px;
 	position: relative;
-	left: -199px;
-	top: 30px;
+	left: 240px;
+	top: -750px;
+}
+
+#materialbox-overlay{
+	background-color: rgba(8, 8, 8, 0.65);
 }
 
 

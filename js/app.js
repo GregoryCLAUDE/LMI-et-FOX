@@ -1,5 +1,7 @@
-
-console.log("yipikai")
+$(document).ready(function(){
+    $('.materialboxed').materialbox();
+    
+  });
 
 //carousel presentation societe
 $('.carousel').carousel();
@@ -14,3 +16,4 @@ $('.carousel').carousel('set', 4);
 //fin carousel presentation societe
 
 $(".button-collapse").sideNav();
+
