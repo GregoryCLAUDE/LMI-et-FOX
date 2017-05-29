@@ -1,0 +1,95 @@
+.logoFrisbee{
+	width: 282px;
+	height: 113px;	
+	position: relative;
+	left: 550px;
+	top: 50px;
+
+}
+.boomerang{
+	background: image("photo/paysage/image3.JPG") ;
+}
+.textFrisbee{
+	font-size: 18px;
+	position: relative;
+	top: -700px;
+
+}
+
+
+.imgFrisbee3{
+	width: 393px;
+	height: 393px;
+	display: block;
+	position: relative;
+	left: 580px;
+	top: 70px;
+}
+
+.imgFrisbee1{
+	width: 430px;
+	height: 430px;
+	position: relative;	
+	left: -120px;
+	top: -350px;
+}
+
+.imgFrisbee2{
+	width: 399px; 
+	height: 399px;
+	position: relative;
+	left: 240px;
+	top: -750px;
+}
+
+#materialbox-overlay{
+	background-color: rgba(8, 8, 8, 0.65);
+}
+
+
+.small {
+	max-width: 70%;
+
+}
+.medium-long {
+	max-width: 155%;
+	max-height: 170%;  
+}
+.medium-long-right {
+	border-left: 40%;
+	max-width: 200%;
+	max-height: 170%;  
+}
+.medium {
+	max-width: 150%; 
+}
+
+
+.boomerang, p { 
+   	font-family: 'IntuitiveRegular'; 
+   	font-weight: normal; 
+   	font-style: normal; 
+	font-size: 135%; 
+}
+
+/*partie presentation entreprise*/
+
+.presentation{
+	font-family: 'Lovers Quarrel', cursive;
+}
+.societe{
+	background-image:linear-gradient(to left, #FFE5E5, SandyBrown);
+	
+}
+.preSociete{
+	display: flex;
+	flex:  center;
+}
+.debrief{color: DarkSlateGray;
+	font-size: large;
+
+}
+.ultimateFrisbee{
+	background-image:linear-gradient(60deg, #edd9ff, #bfdfff);
+
+}
