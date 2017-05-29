@@ -1,1 +1,1 @@
-console.log("yipikai")
+$(".button-collapse").sideNav();

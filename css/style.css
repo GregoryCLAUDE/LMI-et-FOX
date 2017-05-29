@@ -1,11 +1,78 @@
-#frisbee{
+.frisbee{
 	width: 282px;
-	height: 113px;
-	/*position: absolute;
-	top: 20%;
-	left: 50%;*/	
+	height: 113px;	
+/*	position: relative;
+	left: 150px;
+*/
+}
+.textFrisbee{
+	font-size: 16px;
+	position: relative;
+	left: 50px; 
 
 }
-#textFrisbee{
-	font-size: 16px;
+
+
+.imgFrisbee3{
+	width: 393px;
+	height: 393px;
+	display: block;
+	position: relative;
+	left: 630px;
+	top: 450px;
 }
+
+.imgFrisbee1{
+	width: 430px;
+	height: 430px;
+	position: relative;	
+	left: -170px;
+	top: 25px;
+}
+
+.imgFrisbee2{
+	width: 399px; 
+	height: 399px;
+	position: relative;
+	left: -199px;
+	top: 30px;
+}
+
+
+.small {
+	max-width: 70%;
+
+}
+.medium-long {
+	max-width: 155%;
+	max-height: 170%;  
+}
+.medium-long-right {
+	border-left: 30%;
+	max-width: 200%;
+	max-height: 170%;  
+}
+.medium {
+	max-width: 150%; 
+}
+.boomerang-text {
+
+	font-family: "Gloria Hallelujah";
+	font-size: 25px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+
+}
+.boomerang-text-high {
+
+	font-family: "Gloria Hallelujah";
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+
+}
+
