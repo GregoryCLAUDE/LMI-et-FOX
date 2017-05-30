@@ -39,11 +39,15 @@
 	left: 240px;
 	top: -750px;
 }
-.arrowScroll{
-	width: 35px; 
-	height: 35px;
-	position: relative;
-	left: 95%;
+
+.waves-effect{
+	position: fixed;
+	left: 92%;
+	top: 650px;
+	cursor: pointer;
+	background-color: rgba(0,0,0, 0.45); 
+	border-radius: 12px;
+
 }
 
 #materialbox-overlay{

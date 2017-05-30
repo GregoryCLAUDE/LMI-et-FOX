@@ -13,10 +13,19 @@ $(document).ready(function(){
 	//fin carousel presentation societe
 
 	$(".button-collapse").sideNav();
+	
+	$("body").append('<a id="arrowScroll" class="waves-effect btn" href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>');
+	$("#arrowScroll").hide()
+	$("#arrowScroll").click(function(){
+		$('html,body').animate({scrollTop: 0 }, 'slow');      
+	});
     
-  });
+});
 
+$(window).scroll(function(){
+	if ($(window).scrollTop() < 1500){
+		$("#arrowScroll").fadeOut();
+	}else
+		$("#arrowScroll").fadeIn();
+});
 
-$(".arrowScroll").click(function(){
-	$('html,body').animate({scrollTop: $(".societe").offset().top}, 'slow')      
-})
