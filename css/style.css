@@ -59,24 +59,16 @@
 	max-width: 70%;
 
 }
-.medium-long {
-	max-width: 155%;
-	max-height: 170%;  
-}
-.medium-long-right {
-	border-left: 40%;
-	max-width: 200%;
-	max-height: 170%;  
-}
+
 .medium {
-	max-width: 150%; 
+	max-width: 95%; 
 }
 
 .logoHead {
 	width:15% 
 }
 p { 
-   	font-family: 'IntuitiveRegular'; 
+   	font-family:'Indie Flower';
    	font-weight: normal; 
    	font-style: normal; 
 	font-size: 170%; 
@@ -102,4 +94,32 @@ p {
 .ultimateFrisbee{
 	background-image:linear-gradient(60deg, #edd9ff, #bfdfff);
 
+}
+.zoom.medium:hover{
+	max-width: 100%; 
+	margin: 0;
+
+}
+.zoom:hover {
+	max-width: 100%;
+	
+	overflow: hidden;
+	
+}
+
+footer img{
+	
+	position: relative; ;
+	float: right;
+	bottom: 2.25em;
+	margin: 0.5em;
+	size: 4em;
+	width: 2.5em;
+	right: 1em;
+
+}
+
+.page-footer{
+	height: 50px;
+	overflow: hidden;
 }
