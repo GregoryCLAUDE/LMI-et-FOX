@@ -103,12 +103,6 @@ p {
 	margin: 0;
 
 }
-.zoom:hover {
-	max-width: 100%;
-	
-	overflow: hidden;
-	
-}
 
 footer img{
 	
@@ -126,3 +120,4 @@ footer img{
 	height: 50px;
 	overflow: hidden;
 }
+
