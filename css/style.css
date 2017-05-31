@@ -59,12 +59,12 @@
 
 
 .small {
-	max-width: 70%;
+	max-width: 25%;
 
 }
 
 .medium {
-	max-width: 95%; 
+	max-width: 50%; 
 }
 
 .logoHead {
@@ -100,10 +100,6 @@ p {
 	background-image:linear-gradient(60deg, #edd9ff, #bfdfff);
 
 }
-.zoom.medium:hover{
-	max-width: 100%; 
-	margin: 0;
-
 }
 
 footer img{
@@ -131,4 +127,12 @@ border-radius: 50%;
 background-image:circle-gradient( white, rgba(192, 192, 192, 0.46));
 }
 
+#sidenav-overlay{
+	position: fixed;
+	left: 300px;
+}
 
+/*.nav-wrapper{
+	position: fixed;
+	top: 10px,
+}*/
