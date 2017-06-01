@@ -1,13 +1,14 @@
 	<!DOCTYPE html>
-	<html lang="eng">
+	<html lang="fr">
 
 		<head>
-			<title>LMI AND FOX official website</title>
+			<title>LMI AND FOX site officiel</title>
+			<meta charset="utf-8">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 			<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/dashley" type="text/css"/>
 			<link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
 			<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/intuitive" type="text/css"/>
-			<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Oregano" rel="stylesheet">
 			<link rel="stylesheet" type="text/css" href="css/style.css">
 			<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		</head>
@@ -16,29 +17,29 @@
 
 		<header>
 		
-			<ul id="dropdown1" class="dropdown-content">
-				<li><a href="indexeng.html">anglais</a></li>
-				<li><a href="index.html" >français</a></li>
-			</ul>
-
-			<ul id="dropdown2" class="dropdown-content">
-				<li><a href="indexeng.html" >anglais</a></li>
-				<li><a href="index.html">français</a></li>
-			</ul>
 			
 			<div class="navbar-fixed">
 				<nav>
+					<ul id="dropdown1" class="dropdown-content">
+						<li><a href="indexeng.html">anglais</a></li>
+						<li><a href="index.html" >français</a></li>
+					</ul>
+
+					<ul id="dropdown2" class="dropdown-content">
+						<li><a href="indexeng.html" >anglais</a></li>
+						<li><a href="index.html">français</a></li>
+					</ul>
 					<div class="nav-wrapper white">
 						<img class="logoHead" src="photo/logo/LMI-AND-FOX-logo-2016-800-x-274.png">
-						<a href="#" data-activates="mobile-demo" class="button-collapse black-text"><i class="material-icons">menu</i></a>
+						<a href="" data-activates="mobile-demo" class="button-collapse black-text"><i class="material-icons">menu</i></a>
 						<ul class="right hide-on-med-and-down">
-							<li><a href="" class="black-text">presentation</a></li>
-							<li><a href="" class="black-text">boomerang</a></li>
-							<li><a href="" class="black-text">ultimate frisbee</a></li>
+							<li><a href="#anchorCompany" class="black-text">présentation</a></li>
+							<li><a href="#anchorBoomerang" class="black-text">boomerang</a></li>
+							<li><a href="#anchorFrisbee" class="black-text">ultimate frisbee</a></li>
 							<li><a class="dropdown-button black-text" href="#!" data-activates="dropdown1">Lang<i class="material-icons right"></i></a></li>
 						</ul>
 						<ul class="side-nav" id="mobile-demo">
-							<li><a href="">presentation</a></li>
+							<li><a href="">présentation</a></li>
 							<li><a href="">boomerang</a></li>
 							<li><a href="">ultimate frisbee</a></li>
 							<li><a class="dropdown-button black-text" href="#!" data-activates="dropdown2">Lang<i class="material-icons right"></i></a></li>
@@ -51,10 +52,11 @@
 
 
 		<section class="societe">
+			<div id="anchorCompany"></div>
 
 			<div class="container">
 				<div class="preSociete">
-					<h1 class="presentation">Company presentation</h1><img src="photo/logo/LMI-AND-FOX-logo-2016-800-x-274.png">
+					<h1 class="presentation">Présentation de la sociéte</h1><img src="photo/logo/LMI-AND-FOX-logo-2016-800-x-274.png">
 				</div>
 
 				<div >
@@ -80,24 +82,25 @@
 		</section>
 
 		<section id="boomerang" class="boomerang">		
-
+			<div id="anchorBoomerang"></div>
+ 	
 			<div class="container">	
 
 				<div class="row">
 					
-					<div class="col s4">
+					<div class="col s3">
 						<img class="responsive-img" src="photo/logo/LMI-AND-FOX-logo-2016.png" alt="logo_boomerang">
 						<p class='boomerang-text' id='text1'>A precursor in the field and the leading manufacturer in Europe, we have concocted a simple recipe: the creation of numerous models in partnership with sport-renowned launchers with a keen sense of design. True visionaries!</p>	
 					</div>
 
 					
-					<div class="col s4">
-						<img class="responsive-img" src="photo/boomerang/portrait/14231231_10210118965031704_7950735567467259062_o.jpg" alt="jeune lanceur de boomerang">
+					<div class="col s6">
+						<img class="responsive-img materialboxed" src="photo/boomerang/portrait/14231231_10210118965031704_7950735567467259062_o.jpg" alt="jeune lanceur de boomerang">
 					</div>
-					
-					<div class="col s4">
-						<p class="boomerang-text" id='text2'>We are proud to offer a complete and varied range of boomerang for everyone! From beginner to experienced, from leisure to competitor, from child to senior</p>
-						<img src="photo/boomerang/paysage/image3.JPG" alt="groupe apprenant a lancer" class="responsive-img">
+					<div class="col s3">
+						<p class="boomerang-text" id='text2'>We are proud to offer a complete and varied range of boomerang for everyone! From beginner to experienced, from leisure to competitor, from child to senior</p
+						<img src="photo/boomerang/paysage/image3.JPG" alt="groupe apprenant a lancer" class="responsive-img materialboxed">
+						<img src="photo/boomerang/paysage/14188672_10210118993272410_3851684578079212555_o.jpg" alt="lanceur en plein effort" class="responsive-img materialboxed">
 					</div>
 				</div>
 
@@ -106,58 +109,94 @@
 				<div class="container">
 					<div class="row">
 						<div class="col s6 ">
-								<img src="photo/boomerang/paysage/14258210_10210118989272310_4782591388849791491_o.jpg" alt="lanceur professionnel" class="responsive-img">
+								<img src="photo/boomerang/paysage/14258210_10210118989272310_4782591388849791491_o.jpg" alt="lanceur professionnel" class="responsive-img materialboxed">
 						</div>
 
 						<div class="col s6 ">
-								<img class="responsive-img" src="photo/boomerang/paysage/MA.jpg" alt="lanceuse professionnelle">
+								<img class="responsive-img materialboxed" src="photo/boomerang/paysage/MA.jpg" alt="lanceuse professionnelle">
 							
 						</div>
 						
 					</div>
 						
 				</div>
-					</div>
-
-				</div>
 
 			</section>
+				<div id="anchorFrisbee">
 
 			<section class="ultimateFrisbee">
 				<div class="container">
-					<img class="logoFrisbee" src="photo/logo/LMI-AND-FOX-FD.png" alt="logo LMI&FOX ultimate frisbee">
-					<img class="imgFrisbee3 materialboxed" src="photo/frisbee/Feeling Right to play.png" alt="frisbee coloré ">
-					<img class="imgFrisbee1 materialboxed" src="photo/frisbee/Feeling Grouf bleu.png" alt="frisbee avec un ours">
-					<img class="imgFrisbee2 materialboxed" src="photo/frisbee/Medium Tranquilito.png" alt="frisbee avec des personne portent des lunette">
-					<p class="textFrisbee" id='text3'>
-						This sport exudes beautiful emotions and an incredible state of mind. Fair play, respect for his opponent and altruism. Values ​​to be taught from an early age is why we have designed a range of ultimate frisbee oriented for initiation and leisure. Our flying discs are distributed in the school environment and are approved by the FFDF (Fédération Flying Disc France). They are also found in games with friends!
-					</p>
+					<div class="row">
+						
+						<div class="col s4"></div>
+						<div class="col s4"></div>
+						<div class="col s4">
+							<img class="responsive-img" src="photo/logo/LMI-AND-FOX-FD.png" alt="logo LMI&FOX ultimate frisbee">	
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s4">
+							<img class="responsive-img materialboxed" src="photo/frisbee/Feeling Right to play.png" alt="frisbee coloré ">
+						</div>
+						<div class="col s4">
+							
+							<img class="responsive-img materialboxed" src="photo/frisbee/Feeling Grouf bleu.png" alt="frisbee avec un ours">
+						</div>
+						<div class="col s4">
+							<img class="responsive-img materialboxed" src="photo/frisbee/Medium Tranquilito.png" alt="frisbee avec des personne portent des lunette">
+							
+						</div>
+							
+							<p class="textFrisbee" id='text3'>
+								This sport exudes beautiful emotions and an incredible state of mind. Fair play, respect for his opponent and altruism. Values ​​to be taught from an early age is why we have designed a range of ultimate frisbee oriented for initiation and leisure. Our flying discs are distributed in the school environment and are approved by the FFDF (Fédération Flying Disc France). They are also found in games with friends!
+							</p>
+						</div>
+						
+						<video  class="responsive-video z-depth-4<" controls="" autoplay loop>
+    						<source src="videos/ultimate-frisbee-capbreton.mp4" type="video/mp4">
+  						</video>
+						
+					</div>
 				</div>
 			</section>
 
-			<footer class="page-footer  teal darken-2">
-
-				<div class="row">
-	      			<div class="center">
-	        			<ul>
-	          				<li>  
-	          					<a class="grey-text text-lighten-3" id="facebook" href="https://www.facebook.com/lmi.fox/"><img class="responsive-img" src="http://www.gecobat-renovation.fr/wp-content/uploads/sites/1038/2016/06/facebook-3.png" alt="facebook"/></a>
-	          				</li>
-	          				<li>
-	            				<a class="grey-text text-lighten-3" id="instagram" href="https://www.instagram.com/lmi_fox/?hl=fr">
-	              				<img class="responsive-img" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-square1-128.png" alt="instagram"/>
-	            				</a>
-	            			</li>
-	            			<li>
-	            				<a class="grey-text text-lighten-3" id ="youtube" href="https://www.youtube.com/channel/UCQHd-gOBRwe2ADtWv9QOM1Q">
-	              				<img class="responsive-img" src="https://cdn3.iconfinder.com/data/icons/leaf/128/youtube.png" alt="youtube" />
-	            				</a>
-	            			</li>
-	          			</ul>
-	        		</div>
-	      		</div>
+			<footer class="page-footer white">
+				<div class="container">
+					<div class="row">	
+		      			<div class="col 16 s2"></div>
+		      			<div class="col 12 s1 ">
+		      				<div class="chip">
+		      					<a class="btn-floating btn-large waves-effect waves-light" href="mailto:info@lmifox.com">mail</a>
+		      				</div>
+		      			</div>
+		      			<div class="col 12 s4">
+		        			<ul>
+		          				<li>  
+		          					<a class="grey-text text-lighten-3" id="facebook" href="https://www.facebook.com/lmi.fox/"><img class="responsive-img" src="http://www.gecobat-renovation.fr/wp-content/uploads/sites/1038/2016/06/facebook-3.png" alt="facebook"/></a>
+		          				</li>
+		          				<li>
+		            				<a class="grey-text text-lighten-3" id="instagram" href="https://www.instagram.com/lmi_fox/?hl=fr">
+		              				<img class="responsive-img" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-square1-128.png" alt="instagram"/>
+		            				</a>
+		            			</li>
+		            			<li>
+		            				<a class="grey-text text-lighten-3" id ="youtube" href="https://www.youtube.com/channel/UCQHd-gOBRwe2ADtWv9QOM1Q">
+		              				<img class="responsive-img" src="https://cdn3.iconfinder.com/data/icons/leaf/128/youtube.png" alt="youtube" />
+		            				</a>
+		            			</li>
+		          			</ul>
+		      			</div>
+						<div class="col 12 s5"></div>
+		        	</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						© 2017 Copyright Text
+						<a class="" href="">Liens utiles</a>
+					</div>
+				</div>
+	      	
 	    	</footer>
-
 
 			<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 			crossorigin="anonymous"></script>
