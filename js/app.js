@@ -20,6 +20,12 @@ $(document).ready(function(){
 		$('html,body').animate({scrollTop: 0 }, 'slow');      
 	});
 
+	$(".js-scrollTo").on('click',function(){
+		var page=$(this).attr('href');
+		var speed=750;
+		$('html,body').animate({scrollTop: $(page).offset().top}, 'slow');
+	});
+
 });
 
 $(window).scroll(function(){
