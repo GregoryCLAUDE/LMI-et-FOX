@@ -1,0 +1,23 @@
+{
+  "name": "projetlmietfox",
+  "version": "1.0.0",
+  "description": "Projet LMI AND FOX, site monopage pour presentation de l'entreprise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregoryCLAUDE/LMI-et-FOX.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GregoryCLAUDE/LMI-et-FOX/issues"
+  },
+  "homepage": "https://github.com/GregoryCLAUDE/LMI-et-FOX#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "materialize": "^1.0.0"
+  }
+}

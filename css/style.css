@@ -21,7 +21,7 @@ main {
 .btn{
 	position: fixed;
 	left: 92%;
-	top: 650px;
+	top: 91%;
 	cursor: pointer;
 	background-color: rgba(0,0,0, 0.45); 
 	border-radius: 12px;
@@ -89,11 +89,6 @@ p {
 }
 
 
-.textFrisbee{
-	position: relative;
-}
-
-
 .carousel img{
 	height:100%;
 	border-radius: 20%;
@@ -108,7 +103,7 @@ p {
 
 
 .middle{
-	margin-top: 51%
+	margin-top: 12%
 }
 
 #sidenav-overlay{
