@@ -35,8 +35,16 @@ main {
 	background-color: rgba(8, 8, 8, 0.65);
 }
 
+h3 {
+	font-family: 'Crimson Text', serif;
+	font-size: 150%;
+}
 
+h4 {
+	font-family: 'Crimson Text', serif;
+	font-size: 110%;
 
+}
 .logoHead {
 	width:15% 
 }
@@ -87,7 +95,7 @@ p {
 
 
 .carousel img{
-
+	height:100%;
 	border-radius: 20%;
 }
 
@@ -121,8 +129,8 @@ p {
 	
 }
 
-i{
-	color: grey;
+i.small{
+	color: black;
 }
 
 .separation {
