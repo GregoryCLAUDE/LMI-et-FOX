@@ -14,16 +14,6 @@ main {
 	}
 
 
-.logolink {
-	position: relative; ;
-	float: right;
-	bottom: 1em;
-	margin: 0.5em;
-	size: 100%;
-	width: 25%;
-	right: 1em;
-}
-
 .logoHead {
 	width:15% 
 }
@@ -76,8 +66,6 @@ p {
 }
 	
 	
-
-
 .debrief{color: DarkSlateGray;
 }
 
@@ -92,10 +80,17 @@ p {
 	margin: 0;
 }
 
+
+.textFrisbee{
+	position: relative;
+}
+
+
 .carousel img{
 
 	border-radius: 20%;
 }
+
 
 .carousel{
 
@@ -104,12 +99,34 @@ p {
 }
 
 
+.middle{
+	margin-top: 51%
+}
+
 #sidenav-overlay{
 	position: fixed;
 	left: 300px;
 }
+.logolink {
+	
+	height: 80%;
+	width: 55%;
+	
+}
 
-.separation{
+.logolinkyt {
+	
+	height: 100%;
+	width: 100%;
+	
+}
+
+i{
+	color: grey;
+}
+
+.separation {
+
 	background-color: transparent;
 	box-shadow: none;
 }
@@ -118,4 +135,5 @@ p {
 	position: fixed;
     top: 15px;
     right: 0px;
+
 }
