@@ -77,11 +77,6 @@ p {
 .debrief{color: DarkSlateGray;
 }
 
-.zoom.me
-.ultimateFrisbee{
-	background-image:linear-gradient(60deg, #edd9ff, #bfdfff);
-}
-
 .zoom.medium:hover{
 
 	max-width: 100%; 
@@ -98,7 +93,6 @@ p {
 .carousel{
 
 	border-radius: 50%;
-	background-image:circle-gradient( white, rgba(192, 192, 192, 0.46));
 }
 
 
@@ -139,4 +133,3 @@ i.small{
     top: 15px;
     right: 0px;
 
-}
