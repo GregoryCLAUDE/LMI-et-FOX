@@ -9,11 +9,6 @@ footer {
 	background-image:linear-gradient(to left, white, rgba(192, 192, 192, 0.46));
 }
 
-main {
-	flex: 1 0 auto;
-	}
-
-
 .logoHead {
 	width:15% 
 }
@@ -51,17 +46,6 @@ h4 {
 
 p { 
 	font-family: 'Crimson Text', serif;
-	/*font-family: 'Josefin Sans', sans-serif;*/
-	/*font-family: 'Comfortaa', cursive;*/
-	/*font-family: 'Dosis', sans-serif;*/
-	/*font-family: 'Neucha', cursive;*/
-	/*font-family: 'Architects Daughter', cursive;*/
-	/*font-family: 'Kalam', cursive;*/
-	/*font-family: 'Coming Soon', cursive;*/
-	/*font-family: 'Caveat', cursive;*/
-	/*font-family: 'Kavivanar', cursive;*/
-	/*font-family: 'Dekko', cursive;*/
-	/*font-family: 'Sniglet', cursive;*/
    	font-weight: normal; 
    	font-style: normal; 
 	font-size: 170%; 
