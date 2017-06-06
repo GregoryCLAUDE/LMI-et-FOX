@@ -18,6 +18,7 @@
   "homepage": "https://github.com/GregoryCLAUDE/LMI-et-FOX#readme",
   "dependencies": {
     "jquery": "^3.2.1",
-    "materialize": "^1.0.0"
+    "materialize": "^1.0.0",
+    "materialize-css": "^0.98.2"
   }
 }
