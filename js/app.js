@@ -35,3 +35,5 @@ $(window).scroll(function(){
 		$("#arrowScroll").fadeIn();
 });
 
+
+    $('.tooltipped').tooltip({delay: 50});
