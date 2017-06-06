@@ -121,3 +121,22 @@ i.small{
     top: 15px;
     right: 0px;
 }
+
+
+nav .logolinkyt {
+	margin-top: 10px;
+	max-width: 80px;
+	max-height: 80px;
+}
+
+.insta {
+	margin-top: 10px;
+	max-width: 40px;
+	max-height: 40px;
+}
+
+.logolinkfb {
+	margin-top: 10px;
+	max-width: 40px;
+	max-height: 40px;
+}
